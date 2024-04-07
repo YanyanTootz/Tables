@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Data</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+         body{
+          background-image: url('f.jpg');
+          background-size:cover;
+          background:norepeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+          margin: 300px 10px;
+         
+         background-attachment:fixed;
+         
+         .jumbotron {
+           background-color: rgba(15, 18, 16,0.75); /
+           border: 1px solid #000000;
+           padding: 10px;
+           border-radius: 5px;
+           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+           margin-top: 20px;
+             
+                    
+        th{
+          text:emphasize;
+          color:#f2fff6;
+          
+        }   
+        td{
+          font:Times New Roman;
+          color:#000000;
+          
+        }
+        .Vacant{
+          color:black;
+          background-color:#fb9cff;
+         
+        }
+        .pending {  
+            color:black;
+            text:center;
+            background-color:#fcb542;
+        }
+        .done-serving {
+            background-color:#38e0a5;
+            color:black;
+        }
+        .open-for-customer {
+            color:black;
+            background-color:#63cbff;
+        }
+        .table-reserved {
+           color:black;
+           background-color:#fb9cff;
+        }      
+         
+        h1{
+          color:#ffffff;
+          font-size:20px;
+          font-family:Georgia;
+          padding:20px;
+          justify-content:center;
+          letter-spacing:3px;
+          font-size:5rem;
+          text-align: center;
+          justify-content: center;
+          color:#000000;
+          margin: 0px 10px;
+          font-weight:500;
+          letter-spacing:2px;
+          text-shadow: 0 0 10px #fff,
+                       0 0 20px #fff,
+                       0 0 40px #fff,
+                       0 0 80px #fff,
+                       0 0 120px #fff;
+        }
+          
+    </style>
+</head>
+<body>
+
+<div class="container">
+<div class="jumbotron text-center">
+    <h1 class="text-center"><strong><em>R&C FastfooD </em></strong></h1>
+</div>
+  <div class="jumbotron text-center">
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Table No.</th>
+                    <th>Occupied </th>
+                    <th>Customer</th>
+                    <th>Food Orders</th>
+                    <th>Price</th>
+                    <th>Order Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>001</th>
+                   <th>Yes</th>
+                    <th>John</th>
+                    <th>Pizza</th>
+                    <th>Php 80.00</th>
+                  <strong><td class="pending">Pending</td></strong
+                </tr>
+                <tr>
+                    <th>002</th>
+                    <th>Yes</th>
+                    <th>Alice</th>
+                    <th>Burger</th>
+                    <th>Php 30.00</th>
+                    <td class="done-serving">Done Serving</td>
+                </tr>
+                <tr>
+                    <th>003</th>
+                    <th>Yes</th>
+                    <th>Mike</th>
+                    <th>Salad</th>
+                    <th>Php 150.00</th>
+                    <td class="pending">Pending</td>
+                </tr>
+                <tr>
+                    <th>004</th>
+                    <th>Yes</th>
+                    <th>Sarah</th>
+                    <th>Carbonara</th>
+                    <th>Php 170.00</th>
+                    <td class="done-serving">Done Serving</td>
+                </tr>
+                <tr>
+                    <th>005</th>
+                    <th>Yes</th>
+                    <th>David</tj>
+                    <th>Burger-Steak</th>
+                    <th>Php 150.00</th>
+                    <td class="done-serving">Done Serving</td>
+                </tr>
+                <tr>
+                  <th>006</th>
+                  <th>__</th>
+                  <th>Allyson</th>
+                  <th>__</th>
+                  <th>__</th>
+                  <td class="table-reserved">RESERVED</td>
+                  <tr>
+                    <th>007</th>
+                    <th>Yes</th>
+                    <th>Lucas</th>
+                    <th>Burger and Fries</th>
+                    <th>Php 180.00</th> 
+                    <td class="open-for-customer">Open for customer</td>
+                  </tr>
+                  <tr>
+                    <th>008</th>
+                    <th>Yes</th>
+                    <th>Ynah</th>
+                    <th>Fries and Drink</th>
+                    <th>Php 120.00</th> 
+                    <td class="done-serving">Done Serving</td>
+                  </tr>
+                  <tr>
+                    <th>009</th>
+                    <th>Yes</th>
+                    <th>Yong</th>
+                    <th>Burger and Pizza</th>
+                    <th>Php 150.00</th> 
+                    <td class="pending">Pending</td>
+                  </tr>
+                  <tr>
+                    <th>010</th>
+                    <th>Yes</th>
+                    <th>Eesha</th>
+                    <th>Float And Buger Combo</th>
+                    <th>Php 160.00</th> 
+                    <td class="open-for-customer">Open for customer</td>
+                  </tr>
+                  <tr>
+                    <th>011</th>
+                    <th>Yes</th>
+                    <th>Aries</th>
+                    <th>Burger and Fries</th>
+                    <th>Php 150.00</th> 
+                    <td class="open-for-customer">Open for customer</td>
+                  </tr>
+                  <tr>
+                    <th>013</th>
+                    <th>Yes</th>
+                    <th>Ken</th>
+                    <th>1pc.FriedChicken Combo</th>                    </td>
+                    <th>Php 180.00</th> 
+                    <td class="open-for-customer">Open for customer</td>
+                  </tr>
+                  <tr>
+                    <th>014</th>
+                    <th>No</td>
+                    <th>_</th>
+                    <th>_</th>
+                    <th>_</th> 
+                    <td class="Vacant">VACANT</td>
+                  </tr>
+                  <tr>
+                    <th>015</th>
+                    <th>Yes</th>
+                    <th>jayjay</th>
+                    <th>Spaghetti w/ Fried Chicken</th>
+                    <th>Php 200.00</th> 
+                    <td class="done-serving">Done Serving</td>
+                  </tr>
+                  <tr>
+                    <th>016</th>
+                    <th>Yes</th>
+                    <th>Rod</th>
+                    <th>Carbonara</th>
+                    <th>Php 170.00</th> 
+                    <td class="done-serving">Done Serving</td>
+                  </tr>
+                  <tr>
+                    <th>017</th>
+                    <th>Yes</th>
+                    <th>Joy</th>
+                    <th>Burger and Spag</th>
+                    <th>Php 180.00</th> 
+                    <td class="done-serving">Done Serving</td>
+                  </tr>
+                  <tr>
+                    <th>018</th>
+                    <th>Reserved</th>
+                    <th>Ronald/Chay</th>
+                    <th>__</th>
+                    <th>__</th> 
+                    <td class="table-reserved">RESERVED</td>
+                  </tr>
+                  <tr>
+                    <th>019</th>
+                    <th>Yes</th>
+                    <th>April</th>
+                    <th>Pizza Combo</th>
+                    <th>Php 250.00</th> 
+                    <td class="pending">Pending</td>
+                  </tr>
+                  <tr>
+                   <th>020</th>
+                   <th>Yes</th>
+                   <th>May</th>
+                   <th>Chicken nuggets Combo</th>
+                   <th>Php 190.00</th> 
+                   <td class="done-serving">Done Serving</td>
+                  </tr>                                     
+            </tbody>
+        </table>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
